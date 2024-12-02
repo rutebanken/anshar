@@ -47,7 +47,7 @@
         <avro.version>1.11.3</avro.version>
 
         <log4j2.version>2.20.0</log4j2.version>
-        <confluent-kafka.version>7.4.1</confluent-kafka.version>
+        <confluent-kafka.version>7.8.0</confluent-kafka.version>
     </properties>
 
     <distributionManagement>
