@@ -44,7 +44,7 @@
 <!--        <metrics.version>3.2.3</metrics.version>-->
         <entur.helpers.version>2.27</entur.helpers.version>
         <geotools.version>30.0</geotools.version>
-        <avro.version>1.11.3</avro.version>
+        <avro.version>1.11.4</avro.version>
 
         <log4j2.version>2.20.0</log4j2.version>
         <confluent-kafka.version>7.4.1</confluent-kafka.version>
@@ -254,7 +254,7 @@
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
-            <version>5.1.7</version>
+            <version>5.3.5</version>
         </dependency>
 
         <dependency>
