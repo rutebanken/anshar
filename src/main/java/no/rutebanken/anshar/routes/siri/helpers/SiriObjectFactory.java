@@ -287,6 +287,16 @@ public class SiriObjectFactory {
                     sxRequest.setVehicleRef((VehicleRef) next);
                 }
             }
+            if (filterMap.containsKey(OperatorRefStructure.class)) {
+                Set<Object> operatorRefs = filterMap.get(OperatorRefStructure.class);
+                for (Object operatorRef : operatorRefs) {
+                    if (operatorRef instanceof String) {
+                        var refStructure = new OperatorRefStructure();
+                        refStructure.setValue((String) operatorRef);
+                        sxRequest.setOperatorRef(refStructure);
+                    }
+                }
+            }
         }
 
         SituationExchangeSubscriptionStructure sxSubscriptionReq = new SituationExchangeSubscriptionStructure();

@@ -96,7 +96,8 @@ anshar:
       requestorRef: anshar-example-${random.uuid}
       durationOfSubscriptionHours: 1680
       mappingAdapterId: entur
-      filterPresets:
+      filterMap:
+        uk.org.siri.siri21.OperatorRefStructure: "AN_OPERATOR"
       idMappingPrefixes:
       active: false
       
